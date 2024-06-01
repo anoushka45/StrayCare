@@ -7,7 +7,13 @@ export default {
   ],
   darkMode: 'class',
   theme: {
-    extend: {}
-  }, // Comma added here
+    extend: {
+      colors: {
+        'egg':'#FEFAE0',
+        'lg-brown' : '#DDA15E',
+        'dk-brown' : '#BC6C25',
+      },
+    },
+  },
   plugins: [],
 }
