@@ -1,7 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 const SignUp = () => {
   return (
     <div>
+        <Navbar/>
+
 <div class="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
     <div class="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
         <div class="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
@@ -88,14 +92,14 @@ const SignUp = () => {
                 </div>
             </div>
         </div>
-        <div class="flex-1 bg-indigo-100 text-center hidden lg:flex">
-            <div class="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat" >
-<img src="https://storage.googleapis.com/devitary-image-host.appspot.com/15848031292911696601-undraw_designer_life_w96d.svg" alt="" />
+        <div class="flex-1 bg-blue-100 text-center hidden lg:flex">
+            <div class="m-12 xl:m-16 w-full bg-contain  bg-center bg-no-repeat flex justify-center items-center" >
+            <img src="./p1.png" alt="" />
             </div>
         </div>
     </div>
 </div>
-
+<Footer/>
     </div>
   )
 }
